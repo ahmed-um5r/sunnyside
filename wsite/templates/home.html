@@ -1,0 +1,542 @@
+
+<html lang="en">
+    <!-- os.path.join(BASE_DIR, 'wsite', 'templates') -->
+
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Barlow"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Fraunces"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+    <!--Import materialize.css-->
+    <title>nav</title>
+
+    <style>
+        nav .badge{
+            position: relative;
+            top:20px;
+            right: 20px;
+        }
+.tabs .indicator{
+  background-color: blue;
+}
+ 
+    </style>
+  <style>
+    header{
+        
+        
+        overflow-x: hidden !important;
+      background: url("{%static 'wsite/desktop/image-header.jpg'%}");
+      background-size: cover;
+
+      background-position:center ;
+      min-height: 400px;
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+      overflow-x: hidden !important;      
+
+    }
+
+    @media screen and (max-width:670px){
+      header{
+        min-height: 500px;
+      }
+    }
+
+    body { 
+     margin: 0;
+     overflow-x: hidden !important;
+}
+  </style>
+
+</head>
+
+
+
+
+
+
+
+
+
+<nav class="nav-wrapper  fixed-top" style="background-color: #0080ff;width: 100%; height: 65px; position: fixed; line-height: 65px; z-index: 1;">
+
+
+  <div class="container">
+
+      <a href="#" class="brand-logo hide-on-large-only" style="margin-left: -35vw;">Sunyside </a>
+      
+      <a href="#" class="brand-logo hide-on-med-and-down " style="margin-left: -10vw;">Sunyside </a>
+
+      <a href="#" class="sidenav-trigger hide-on-med-and-up right" data-target="mobile-links"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-small-only" style="margin-right: -8vw;">
+          <li class="" ><a href="" class="" aria-label="Read more about us"><span>About </span></a></li>
+          <li class=""><a href="" class="" aria-label="Read more about our services">Service</a></li>
+          <li class=""><a href="" class="" aria-label="Read more about our projects">Project</a></li>
+          <li class=""><a href="" class="btn white " style="color:black" aria-label="contact us">Contact</a></li>       
+  </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-links">
+<li class="" ><a href="" class="" aria-label="Read more about us">About</a></li>
+<li class=""><a href="" class="" aria-label="Read more about our services">Service</a></li>
+<li class=""><a href="" class="" aria-label="Read more about our projects">Project</a></li>
+<li class=""><a href="" class="" aria-label="contact us">contact</a></li>
+</ul> 
+
+<header style="margin-bottom:0 ;">
+  <div class="row" >
+      <div class="col s5 offset-s4  l4  offset-l4  m5 offset-m4 flex-container" style=" background-color: none !important;display:flex !important;justify-content: center !important; ">
+        <br>  <br>
+        <div style="text-align: center !important;">
+          <style>
+            .a4{  font-family: "Fraunces";
+  letter-spacing: 8px;}
+          </style>
+          <h4 class="a4 indigo-text text-darken-4 " style= "color: aliceblue !important;margin-top: 100px;width:500px"> WE ARE CREATIVE    <br>   </h4>
+          <img
+          src="{%static 'wsite/icon-arrow-down.svg'%}"
+          alt=""
+          class="img-fluid arrow mt-3"
+        />        </div>
+        </div>
+  </div>
+</header>
+
+         
+<section class="" id="photo's"   style="margin:0">
+
+    <div class="row" style="margin:0">    
+
+
+      <style>
+@media screen and (min-width:1200px){
+.tr1{padding-left:8vw;padding-top:4vh ;}
+.tr2{padding-left:8vw; padding-right:8vw;}
+}
+@media screen and (max-width:600px){
+
+}
+      </style>
+   
+   <div class="col s12 l6 m6 flex-container" style=" background-color: none !important;display:flex !important;justify-content: center !important;height: 60vh;min-height: 300px;">
+    <div style="text-align: left !important;"  >
+     <h2 class="indigo-text text-darken-4 s2i" style="margin-left: 6vw !important;margin-right: 6vw !important;">Transform your brand</h2>
+    <p class="s2i" style=" margin-left: 6vw !important;margin-right: 6vw !important;" class="">
+          We are full-service creative agency specializing in helping brand grow fast. Engage your client through compelling visuals that
+          do most of the marketing for you</p>
+        <p>
+ </div>
+      </div>
+
+      <style>
+        @media screen and (max-width:650px) and  (min-width:600px){
+          .a2{margin-top:-40px ;}
+}
+        
+      </style>  
+
+      <div class="col s12 l6 m6"   style="background-color:green ;  display:inline-block;padding:0px;margin:0px;">
+        <img src="{%static 'wsite/desktop/image-transform.jpg'%}"
+        
+        class="responsive-img materialboxed" alt="" style="width: 100%;height: 60vh;min-height: 300px">
+        </div>
+     </div>
+
+     <div class="row" style="margin:0 ;">       
+
+        <div class="col s12 l6 m6"   style="background-color:green ;  display:inline-block;padding:0px;margin:0px;">
+        <img src="{%static 'wsite/desktop/image-gallery-cone.jpg'%}" class="responsive-img materialboxed" alt="" style="width: 100%;height: 60vh;min-height: 300px;">
+        </div>
+ 
+        <div class="col s12 l6 m6 flex-container" style=" background-color: none !important;display:flex !important;justify-content: center !important;height: 60vh;min-height: 300px;">
+         <div class="a2" style="text-align: left !important;">
+          <h2 class="indigo-text text-darken-4 s2i" style="margin-left: 6vw !important;margin-right: 6vw !important;">Stand out the right audience</h2>
+         <p class="s2i" style="margin-left: 6vw !important;margin-right: 6vw !important;" class="">
+          Using a collaborative formula of designers, researshers, photographers, videographers, and copyrighter, we will build and 
+          extend your brand in digital places</p>
+         <p>  
+        </div>
+
+       </div>
+ 
+      </div>
+
+<style>
+
+</style>
+
+      <div class="row" style="margin:0 ;">    
+
+        <div class="col s12 l6 m6 grid-container" id="tisi"   style="	display:grid !important;	grid-template-rows:5fr 2fr !important;height: 65vh;min-height: 440px;;background-color:green ;  display:inline-block;">
+            <br> <br>
+            <div></div>
+              <div class=" flex-container" style=" background-color: none !important;display:flex !important;justify-content: flex-start !important;">
+                <div style="padding:0 30px !important;">
+                <h5 class="indigo-text text-darken-4 " style="text-align: center;"> Graphic Design </h5>
+                <p class="indigo-text text-darken-4" style="text-align: center;">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
+              </div>  
+              </div> 
+          </div>
+    
+        <div class="col s12 l6 m6 " id="wsou"    style="display:grid !important;	grid-template-rows:5fr 2fr !important;height: 65vh;min-height: 440px;;background-color:green ;  display:inline-block;">
+            <br> <br>
+            
+            <div></div>
+            <div class=" flex-container" style=" background-color: none !important;display:flex !important;justify-content: flex-start !important;">
+              <div style="padding:0 30px !important;">
+            <h5 class="indigo-text text-darken-4" style="text-align: center;"> photography </h5>
+            <p class="indigo-text text-darken-4 " style="text-align: center;"> Increase your credibility by getting the most stunning. high-quality photos that improve your business image.</p>
+            </div>
+          </div>    
+          </div>
+     
+ 
+      </div>
+
+
+      <style>
+        
+        @media screen and (min-width:1200px){
+    /* .tisi{padding-left:200px ; padding-right:200px ;} */
+    /* .wsou{padding-left:200px ; padding-right:200px ;} */
+}
+
+
+    #tisi{
+      overflow-x: hidden !important;
+      background: url("{%static 'wsite/desktop/image-gallery-orange.jpg'%}");
+      background-size: cover;
+      background-position:center ; 
+    }
+    #wsou{
+      overflow-x: hidden !important;
+      background: url("{%static 'wsite/desktop/image-graphic-design.jpg'%}");
+      background-size: cover;
+      background-position:center ;
+    }
+      </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    
+@media screen and (min-width:1300px){
+#z{padding-left:-15px ;}
+}
+
+@media screen and (max-width:670px){
+      header{
+        min-height: 500px;
+      }
+      .s2i{text-align: center !important;}
+    }
+
+    
+@media screen and (max-width:600px){
+      .test{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+      }
+    }
+
+
+
+
+</style>
+
+
+        <style>
+          @media screen and (min-width:1200px)  and (min-height: 95vh){
+        .off1{height: 65vh;min-height: 500px;}
+          }
+          @media screen and (min-width:1200px)  and (max-height: 95vh){
+        .off1{height: 500px;}
+          }
+
+
+        @media only screen and (max-width: 600px)  and (min-width: 1200px){
+        .off1{height: 80vh;min-height: 500px;}
+          }
+
+          @media screen and (max-width:600px){
+        .off1{height: 65vh;min-height: 400px;}
+          }
+
+        </style>
+
+        <div class="row" id="z" style="margin:0">    
+
+        <div class="col s12 m2  offset-m1 l2 offset-l1 off1"  style="padding-top:5vh;padding-bottom:10vh;text-align: center;">
+   
+          <a  class="indigo darken-4 z-depth-0 icon  flex-container" style=" background-color: white !important;display:flex !important;justify-content: center !important;">
+            <img src="{%static 'wsite/image-thomas.jpg'%}"  class="test responsive-img materialboxed" alt="" style="width:40px; height:40px;border-radius:50px; ">
+
+          </a>
+            <p style=" ">
+               We put our trust on Sunyside and they delivred, making sure our needs were mets and deadlines were always hit.</p>
+               <h5 style="padding-top:0 px ;">Thomas S.</h5>
+            <p>marketing director</p>
+        </div>
+
+          <div class="col s12  m2 offset-m2 l2 offset-l2 off1"  style=" padding-top:5vh;text-align: center;">
+              
+            <a  class="indigo darken-4 z-depth-0 icon  flex-container" style=" background-color: white !important;display:flex !important;justify-content: center !important;">
+              <img src= "{%static 'wsite/image-jennie.jpg'%}" class=" responsive-img materialboxed" alt="" style="width:40px; height:40px;border-radius:50px; ">
+            </a>
+            <div>
+              <p style=" ">
+                Sunnyside's entousiasm coupled with their keen interset in our brand's success made it a satisfaying and enjoyable experience.</p>
+              <h5>Jenny F.</h5>   
+              <p>chief operator officer</p>
+            </div>  
+          </div>
+
+          <div class="col s12 m2 offset-m2 l2 offset-l2 off1"  style="padding-top:5vh;text-align: center;">
+   
+            <a  class="indigo darken-4 z-depth-0 icon  flex-container" style=" background-color: white !important;display:flex !important;justify-content: center !important;">
+              <img src=" {%static 'wsite/image-emily.jpg'%}" class="test responsive-img materialboxed" alt="" style="width:40px; height:40px;border-radius:50px; ">
+
+              </a>
+              <p style=" ">
+                Incridible end result! Our sales increased over 400% when we work with Sunnyside. Highly recommended
+              </p>
+
+                <h5 style="padding-top:0 px ;">
+                    Emely.R
+                </h5>
+                <p>business owner</p>
+     
+          </div>
+
+          
+
+
+
+          
+
+
+ 
+      </div>
+
+
+     <div class="row">    
+        <div class="col s6 m3 l3" style="display:inline-block;padding:0px;margin:0px;">
+            <img src= "{%static 'wsite/desktop/image-graphic-design.jpg'%}" class="responsive-img materialboxed" alt="" style="display:inline-block;padding:0px;margin:0px;width: 100%;height: 40vh;min-height: 230px">
+        </div>   
+
+        <div class="col s6 m3 l3"  style="display:inline-block;padding:0px;margin:0px;">
+        <img src="{%static 'wsite/desktop/image-gallery-orange.jpg'%}" class="responsive-img materialboxed" alt="" style="width: 100%;display:inline-block;padding:0px;margin:0px;height: 40vh;min-height: 230px">
+        </div>
+       
+        <div class="col s6 m3 l3"  style="display:inline-block;padding:0px;margin:0px;">
+        <img src="{%static 'wsite/desktop/image-gallery-cone.jpg'%}" class="responsive-img materialboxed" alt="" style="width: 100%;display:inline-block;padding:0px;margin:0px;height: 40vh;min-height: 230px">
+        </div>   
+
+        <div class="col s6 m3 l3"  style="display:inline-block;padding:0px;margin:0px;">
+        <img src="  {%static 'wsite/desktop/image-gallery-sugarcubes.jpg'%}" class="responsive-img materialboxed" alt="" style="width: 100%;display:inline-block;padding:0px;margin:0px;height: 40vh;min-height: 230px">
+        </div>
+   
+
+     </div>
+
+</section>
+
+
+<footer class="page-footer "  style="margin-top:-20px;padding-bottom:20px; background-color: rgb(173, 216, 230)">
+    <div class="container" style="height: 23vh;min-height: 150px; background-color: rgb(173, 216, 230)">
+      <div class="row" style="padding-left:-2vw ;">
+
+        <div class="col s3 offset-s1 m2 offset-m1 l2 offset-l1" style="">
+          <ul>
+            <li><a href=""  class="grey-text text-lighten-3"></a></li>
+          </ul>
+      </div>
+
+      <div class="col s3 offset-s1 m2 offset-m2 l2 offset-l2" style="">
+          <h5 href=""  class=" text-lighten-3" style="color: black;">Sunyside</h5>
+      </div>
+
+      <div class="col s3 offset-s1 m2 offset-m2 l2 offset-l2" style="">
+          <ul>
+            <li><a href=""  class="grey-text text-lighten-3"></a></li>
+          </ul>
+      </div>
+        </div>      
+        <div class="row" style="padding-left:4vw;margin-top: -20px;margin-bottom:20px ;">
+            <div class="col s3 offset-s1 m2 offset-m1 l2 offset-l1" style="">
+                <ul>
+                  <li><a href=""  class=" text-lighten-3" style="color: black;">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col s3 offset-s1 m2 offset-m2 l2 offset-l2" style="color: black;">
+                <ul>
+                  <li><a href=""  class=" text-lighten-3" style="color: black;">Service</a></li>
+                </ul>
+            </div>
+
+            <div class="col s3 offset-s1 m2 offset-m2 l2 offset-l2" style="color: black;">
+                <ul>
+                  <li><a href=""  class=" text-lighten-3"  style="color: black;">Project</a></li>
+                </ul>
+            </div>
+
+      </div>
+
+      <div class="row" style="margin-top: 100px;color: black !important;">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">get in touch</h2>
+    
+            <p>
+              ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            <p> 
+            <p>
+              ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            <p> 
+            <p>
+              ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            <p> 
+        </div>
+    
+        <div class="col s12 l5 offset-l2">
+          <form action="{% url 'home' %}" method="POST">
+            {% csrf_token %}
+                <div class="input-field">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="email" name="email">
+                  <label for="email"  name="email">YOUR EMAIL</label>
+                </div>
+    
+                <div class="input-field">
+                  <i class="material-icons prefix">message</i>
+                  <textarea name="message" id="message" class="materialize-textarea" ></textarea>
+                  <label for="message" name="message" > YOUR MESSAGE</label>
+                </div>
+    
+                <div class="input-field">
+                  <input type="text" id="date" name="date" class="datepicker">
+                  <label for="date">choose a date</label>
+                </div>
+    
+                <div class="input-field">
+                  <p>services required..</p>
+    
+                  <p>
+                    <label>
+                      <input type="checkbox"  name="phtography" value="phtography">
+                        <span>phtography</span>
+                    </label>
+                  </p>
+    
+                  <p>
+                    <label>
+                      <input type="checkbox"  name="edit" value="edit">
+                        <span>editing</span>
+                    </label>
+                  </p>
+    
+                  <div class="input-field center">
+                    <button class="btn">Submit</button>
+                  </div>
+                </div>
+          </form>
+        </div>
+      </div>
+        <br></br>
+<div class="row flex-container" style=" width:100%;background-color: none !important;display:flex !important;justify-content: center !important ;">
+
+    <div class="" style="text-align: center !important;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  style="color: black;" class="bi bi-pinterest" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+</svg>
+      </div>
+      &ensp;
+      <div class="" style="text-align: center !important;">
+        <i class="bi-facebook"  style="color: black;"></i>
+      </div> &ensp;
+      <div class=""  style="text-align: center !important;">
+        <i class="bi-twitter"  style="color: black;"></i>
+      </div> &ensp;
+      <div class=" " style="text-align: center !important;">
+        <i class="bi-instagram"  style="color: black;"></i>
+
+
+      </div>
+
+
+
+</div><br></br>
+
+</div>
+
+  </footer>
+
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav(); 
+                $('.materialboxed').materialbox(); 
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+                $('.datepicker').datepicker({
+                  disableWeekends:true
+                });
+                
+        })
+        </script>
+        
+        
+        <script>
+            $(document).ready(function(){
+                $('.modal').modal();
+            })
+        </script>
+  </body>
+  </html>
